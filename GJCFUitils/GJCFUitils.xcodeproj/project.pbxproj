@@ -42,6 +42,10 @@
 		36BD6F871B4AA847001D8588 /* TVGDebugConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6F851B4AA847001D8588 /* TVGDebugConsoleViewController.m */; };
 		36BD6F8B1B4AACE9001D8588 /* StringDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6F8A1B4AACE9001D8588 /* StringDemoViewController.m */; };
 		36BD6F8C1B4AACE9001D8588 /* StringDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6F8A1B4AACE9001D8588 /* StringDemoViewController.m */; };
+		36BD6F8F1B4AB443001D8588 /* AnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6F8E1B4AB443001D8588 /* AnimationDemoViewController.m */; };
+		36BD6F901B4AB443001D8588 /* AnimationDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6F8E1B4AB443001D8588 /* AnimationDemoViewController.m */; };
+		36BD6F931B4AB47E001D8588 /* QuickCacheDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6F921B4AB47E001D8588 /* QuickCacheDemoViewController.m */; };
+		36BD6F941B4AB47E001D8588 /* QuickCacheDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD6F921B4AB47E001D8588 /* QuickCacheDemoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,10 @@
 		36BD6F881B4AAAF1001D8588 /* GJCFUitils-PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GJCFUitils-PrefixHeader.pch"; sourceTree = "<group>"; };
 		36BD6F891B4AACE9001D8588 /* StringDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringDemoViewController.h; sourceTree = "<group>"; };
 		36BD6F8A1B4AACE9001D8588 /* StringDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringDemoViewController.m; sourceTree = "<group>"; };
+		36BD6F8D1B4AB443001D8588 /* AnimationDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationDemoViewController.h; sourceTree = "<group>"; };
+		36BD6F8E1B4AB443001D8588 /* AnimationDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoViewController.m; sourceTree = "<group>"; };
+		36BD6F911B4AB47E001D8588 /* QuickCacheDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickCacheDemoViewController.h; sourceTree = "<group>"; };
+		36BD6F921B4AB47E001D8588 /* QuickCacheDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickCacheDemoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +301,10 @@
 				36BD6F811B4AA7C9001D8588 /* DateDemoViewController.m */,
 				36BD6F891B4AACE9001D8588 /* StringDemoViewController.h */,
 				36BD6F8A1B4AACE9001D8588 /* StringDemoViewController.m */,
+				36BD6F8D1B4AB443001D8588 /* AnimationDemoViewController.h */,
+				36BD6F8E1B4AB443001D8588 /* AnimationDemoViewController.m */,
+				36BD6F911B4AB47E001D8588 /* QuickCacheDemoViewController.h */,
+				36BD6F921B4AB47E001D8588 /* QuickCacheDemoViewController.m */,
 			);
 			name = Demos;
 			sourceTree = "<group>";
@@ -404,10 +416,12 @@
 				36BD6F5C1B4AA563001D8588 /* GJCFQuickUIUitil.m in Sources */,
 				36BD6F601B4AA563001D8588 /* GJCFSystemUitil.m in Sources */,
 				36BD6F5A1B4AA563001D8588 /* GJCFQuickCacheUitil.m in Sources */,
+				36BD6F8F1B4AB443001D8588 /* AnimationDemoViewController.m in Sources */,
 				36BD6F821B4AA7C9001D8588 /* DateDemoViewController.m in Sources */,
 				36BD6F7B1B4AA586001D8588 /* TVGDebugSectionInfo.m in Sources */,
 				36BD6F5E1B4AA563001D8588 /* GJCFStringUitil.m in Sources */,
 				36BD6F561B4AA563001D8588 /* GJCFDispatchCenterUitil.m in Sources */,
+				36BD6F931B4AB47E001D8588 /* QuickCacheDemoViewController.m in Sources */,
 				36BD6F751B4AA586001D8588 /* TVGDebugLogger.m in Sources */,
 				36BD6F8B1B4AACE9001D8588 /* StringDemoViewController.m in Sources */,
 				36BD6F121B4AA543001D8588 /* AppDelegate.m in Sources */,
@@ -428,11 +442,13 @@
 				36BD6F871B4AA847001D8588 /* TVGDebugConsoleViewController.m in Sources */,
 				36BD6F531B4AA563001D8588 /* GJCFDateUitil.m in Sources */,
 				36BD6F831B4AA7C9001D8588 /* DateDemoViewController.m in Sources */,
+				36BD6F941B4AB47E001D8588 /* QuickCacheDemoViewController.m in Sources */,
 				36BD6F651B4AA563001D8588 /* UIView+GJCFViewFrameUitil.m in Sources */,
 				36BD6F5F1B4AA563001D8588 /* GJCFStringUitil.m in Sources */,
 				36BD6F7E1B4AA586001D8588 /* TVGDebugViewController.m in Sources */,
 				36BD6F7C1B4AA586001D8588 /* TVGDebugSectionInfo.m in Sources */,
 				36BD6F571B4AA563001D8588 /* GJCFDispatchCenterUitil.m in Sources */,
+				36BD6F901B4AB443001D8588 /* AnimationDemoViewController.m in Sources */,
 				36BD6F5B1B4AA563001D8588 /* GJCFQuickCacheUitil.m in Sources */,
 				36BD6F611B4AA563001D8588 /* GJCFSystemUitil.m in Sources */,
 				36BD6F781B4AA586001D8588 /* TVGDebugModel.m in Sources */,
@@ -546,6 +562,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GJCFUitils/GJCFUitils-PrefixHeader.pch";
 				INFOPLIST_FILE = GJCFUitils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -558,6 +575,7 @@
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/GJCFUitils/GJCFUitils-PrefixHeader.pch";
 				INFOPLIST_FILE = GJCFUitils/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

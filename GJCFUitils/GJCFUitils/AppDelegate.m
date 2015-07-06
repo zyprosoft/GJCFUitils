@@ -47,6 +47,16 @@
     
     [self.rootVC addDebugSection:stringSectionInfo];
     
+    TVGDebugModel *animationItem = [TVGDebugModel debugModelWithTitle:@"Animation Uitils" withClassName:@"AnimationDemoViewController"];
+    TVGDebugSectionInfo *animationSection = [TVGDebugSectionInfo debugSectionInfoWithTitle:@"Animation Uitils" withTestsArra:@[animationItem]];
+    
+    [self.rootVC addDebugSection:animationSection];
+    
+    TVGDebugModel *cacheItem = [TVGDebugModel debugModelWithTitle:@"Cache Uitils" withClassName:@"QuickCacheDemoViewController"];
+    TVGDebugSectionInfo *cacheSection = [TVGDebugSectionInfo debugSectionInfoWithTitle:@"Cache Uitils" withTestsArra:@[cacheItem]];
+    
+    [self.rootVC addDebugSection:cacheSection];
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
